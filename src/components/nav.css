@@ -1,0 +1,51 @@
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.navbar>.container{
+    display:inline-block;
+}
+.navbar{
+    padding:10px;
+    background-color: teal;
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand a{
+    font-size: 40px;
+    text-decoration: none;
+    color:white;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    margin-bottom:0;
+}
+.link a{
+    display: block;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    border:1px solid teal;  
+}
+.link a:hover{
+    border-bottom: 1px solid white;
+}
+.searchinput{
+    margin-left: 222px;
+    width:500px;
+    margin-top:20px;
+
+}
+.btn{
+margin-left:40px;
+background-color:teal;
+color:white;
+}
+
